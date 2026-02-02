@@ -1,0 +1,9 @@
+{
+  "name": "ms-post-redirect",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "start": "vercel dev"
+  }
+}
