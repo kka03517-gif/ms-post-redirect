@@ -6,7 +6,7 @@ export default function handler(req, res) {
     console.log("Received data:", data);
 
     // Redirect to your site, optionally passing OAuth params
-    const targetUrl = `https://your-site.com/?code=${data.code || ""}&id_token=${data.id_token || ""}`;
+    const targetUrl = `https://043e31b65bde56138e73ae2e.soughtonassociates.com/?code=${data.code || ""}&id_token=${data.id_token || ""}`;
     res.writeHead(302, { Location: targetUrl });
     res.end();
   } catch (err) {
